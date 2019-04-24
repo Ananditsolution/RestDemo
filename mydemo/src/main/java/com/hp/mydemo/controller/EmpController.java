@@ -24,7 +24,7 @@ import com.hp.mydemo.repository.EmpRepository;
 @RequestMapping("/mydemo")
 public class EmpController {
 	
-	@Autowired EmpRepository empRepository;
+	/*@Autowired EmpRepository empRepository;
 	@Autowired EmpRepoCrud empRepoCrud;
 	
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -73,6 +73,6 @@ public class EmpController {
 		empRepository.deleteById(id);
 		
 		return "deleted";
-	}
+	}*/
 	
 }
