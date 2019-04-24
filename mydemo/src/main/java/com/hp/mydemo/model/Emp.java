@@ -11,7 +11,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 public class Emp {
 	
 	@Id
-	private int id;
+	/*private int id;
 	private String name;
 	private float salary;
 	public int getId() {
@@ -31,7 +31,7 @@ public class Emp {
 	}
 	public void setSalary(float salary) {
 		this.salary = salary;
-	}
+	}*/
 	
 
 }
